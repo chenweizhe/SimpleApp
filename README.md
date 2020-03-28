@@ -873,3 +873,15 @@ graph LR
 	关系型数据库类型 --> WCDB
 ```
 
+{% mermaid %}
+graph TD
+	Bundles --> App1
+	Bundles --> App2
+	Bundles --> App3
+	App1 --> 应用配置信息
+	App1 --> 二进制文件&资源
+	Datas --> app1
+	Datas --> app2
+	Datas --> app3
+	app1 --> 文件系统
+{% endmermaid %}
